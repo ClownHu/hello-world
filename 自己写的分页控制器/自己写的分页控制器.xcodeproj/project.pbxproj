@@ -15,6 +15,7 @@
 		3F0221F31E6D2E080021A096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0221F21E6D2E080021A096 /* ViewController.m */; };
 		3F0221F71E6D2E140021A096 /* HMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0221F51E6D2E140021A096 /* HMDetailViewController.m */; };
 		3F0221F81E6D2E140021A096 /* HMDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0221F61E6D2E140021A096 /* HMDetailViewController.xib */; };
+		3F0221FB1E6D36E60021A096 /* HMTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0221FA1E6D36E60021A096 /* HMTwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		3F0221F41E6D2E140021A096 /* HMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMDetailViewController.h; path = "自己写的分页控制器/HMDetailViewController.h"; sourceTree = "<group>"; };
 		3F0221F51E6D2E140021A096 /* HMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMDetailViewController.m; path = "自己写的分页控制器/HMDetailViewController.m"; sourceTree = "<group>"; };
 		3F0221F61E6D2E140021A096 /* HMDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HMDetailViewController.xib; path = "自己写的分页控制器/HMDetailViewController.xib"; sourceTree = "<group>"; };
+		3F0221F91E6D36E60021A096 /* HMTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTwoViewController.h; sourceTree = "<group>"; };
+		3F0221FA1E6D36E60021A096 /* HMTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				3F0221DE1E6D2DA40021A096 /* AppDelegate.m */,
 				3F0221F11E6D2E080021A096 /* ViewController.h */,
 				3F0221F21E6D2E080021A096 /* ViewController.m */,
+				3F0221F91E6D36E60021A096 /* HMTwoViewController.h */,
+				3F0221FA1E6D36E60021A096 /* HMTwoViewController.m */,
 				3F0221E31E6D2DA40021A096 /* Main.storyboard */,
 				3F0221DA1E6D2DA40021A096 /* Supporting Files */,
 			);
@@ -163,6 +168,7 @@
 				3F0221DF1E6D2DA40021A096 /* AppDelegate.m in Sources */,
 				3F0221F71E6D2E140021A096 /* HMDetailViewController.m in Sources */,
 				3F0221DC1E6D2DA40021A096 /* main.m in Sources */,
+				3F0221FB1E6D36E60021A096 /* HMTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +325,7 @@
 				3F0221F01E6D2DA40021A096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
